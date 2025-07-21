@@ -1,0 +1,81 @@
+.admin-login {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background: #1e293b;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.admin-login h2 {
+  margin-bottom: 1.5rem;
+}
+
+.admin-login input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.6rem 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.admin-login button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+.admin-dashboard {
+  padding: 2rem;
+  background: #0f172a;
+  min-height: 100vh;
+  color: white;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.admin-header button {
+  padding: 0.5rem 1rem;
+  background: #ef4444;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inquiry-table {
+  overflow-x: auto;
+}
+
+.inquiry-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1e293b;
+}
+
+.inquiry-table th, .inquiry-table td {
+  padding: 0.8rem;
+  border: 1px solid #334155;
+  text-align: left;
+}
+
+.inquiry-table th {
+  background-color: #3b82f6;
+  color: white;
+}
