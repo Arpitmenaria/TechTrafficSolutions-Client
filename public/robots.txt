@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://techtrafficsolutions.com/sitemap.xml
