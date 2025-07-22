@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { FaBars, FaTimes } from 'react-icons/fa'; // for hamburger icons
+import { FaBars } from 'react-icons/fa';
 
 const Navbar = () => {
   const location = useLocation();
@@ -9,7 +9,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const scrollToSection = (id) => {
-    setMenuOpen(false); // close menu on link click
+    setMenuOpen(false);
     if (location.pathname === '/') {
       document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
     } else {
@@ -38,7 +38,7 @@ const Navbar = () => {
       </button>
 
       <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-        {menuOpen ? <FaTimes /> : <FaBars />}
+        <FaBars />
       </div>
     </header>
   );
