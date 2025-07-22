@@ -20,7 +20,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/inquiry', formData);
+      await axios.post('https://techtrafficsolutions-server.onrender.com/api/inquiry', formData);
       setStatus('Message sent successfully!');
       setFormData({ name: '', email: '', service: '', message: '' });
     } catch (err) {
